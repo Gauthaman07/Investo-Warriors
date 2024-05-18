@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.firstcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 160px;
+    margin-bottom: 60px;
+}
+
+.container {
+    width: 100%;
+}
+
+.firstcon .left h1 {
+    color: grey;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.firstcon .left h2 {
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.firstcon .left h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.firstcon img {
+    width: 500px;
+    height: 300px;
+}
+
+.thirdcon {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.thirdheader {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.thirdsubheader {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.thirdcon .verticalblock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.thirdcon .verticalblock .verticalinn {
+    width: 250px;
+    height: 320px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+}
+
+.thirdcon .verticalblock .verticalinn img {
+    width: 150px;
+    height: 150px;
+}
+
+.thirdcon .verticalblock .verticalinn h3 {
+    padding: 0px 12px 0px 12px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.thirdcon .verticalblock .verticalinn h4 {
+    padding: 0px 12px 0px 12px;
+    font-weight: 500;
+    color: gray;
+    font-size: 19px;
+}
+
+.fourthcon {
+    background-color: #dcdde1;
+    margin-top: 60px;
+    padding-top: 20px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.fourthcon h2 {
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.fourthcon h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fourthcon .verticalblock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fourthcon .verticalinn {
+    width: 85%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.fourthcon .verticalinn img {
+    width: 150px;
+    height: 150px;
+}
+
+.fourthcon .carouselblock {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+.fourthcon .verticalinn h3 {
+    padding: 15px 12px 0px 12px;
+}
+
+.fourthcon .verticalinn p {
+    padding: 30px 12px 0px 12px;
+    line-height: 26px;
+}
+
+.faqs {
+    max-width: 1160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .firstcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+
+    }
+
+    .firstcon .left h1 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .firstcon .left h2 {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .firstcon img {
+        width: 100%;
+    }
+
+    .firstcon .left {
+        /* display: flex; */
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .thirdheader {
+        font-size: 22px;
+    }
+
+    .thirdsubheader {
+        font-size: 18px;
+    }
+
+    .thirdcon .verticalblock {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .thirdcon .verticalblock .verticalinn {
+        width: 100%;
+    }
+
+    .fourthcon {
+        margin-top: 20px;
+    }
+
+    .fourthcon .verticalinn {
+        width: 95%;
+        height: 270px;
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .fourthcon .carouselblock {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fourthcon h2 {
+        font-size: 22px;
+
+    }
+
+    .fourthcon h4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}

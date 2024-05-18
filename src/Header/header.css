@@ -1,0 +1,277 @@
+.topsec {
+  width: 100%;
+  /* float: left; */
+  padding-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 3px;
+  height: 88px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.newheader {
+  display: flex;
+  /* // padding-left: 200px; */
+  gap: 30px;
+  align-items: center;
+
+}
+
+.spansec {
+  margin-left: 5px;
+  margin-bottom: 3px !important;
+  max-width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0px !important;
+  font-size: 17px;
+}
+
+.logo {
+  cursor: pointer;
+  float: left;
+  width: 195px;
+  height: 70px;
+  background: black;
+  /* // background: var(--primaryTextcolor); */
+  mask: url("../assets/images/IWlogohr.png") no-repeat center / contain;
+  -webkit-mask: url("../assets/images/IWlogohr.png") no-repeat center /contain;
+}
+
+.mobMenu {
+  float: left;
+  width: 28px;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.closeSec {
+  span {
+    color: transparent !important;
+  }
+}
+
+.mobMenu ul li a {
+  float: left;
+  text-align: left !important;
+}
+
+.mobMenu:hover,
+.mobMenu:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mobMenu.dropdown-toggle::after {
+  display: none !important;
+}
+
+.nav-link::after {
+  display: none !important;
+}
+
+.titleSec {
+  text-transform: uppercase;
+
+  i {
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    margin-left: 2px;
+  }
+}
+
+.profileImg {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+}
+
+.topsec a {
+  cursor: pointer;
+}
+
+.communityBtn {
+  color: var(--primaryTextcolor);
+  text-decoration: none;
+  box-shadow: var(--outsideShadow);
+  border-radius: 11px;
+  float: left;
+  width: 266px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.communityBtn:hover {
+  color: var(--primaryTextcolor);
+}
+
+.communityBtn span {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.userDropmenu {
+  float: left;
+  cursor: pointer;
+  color: var(--primaryTextcolor);
+  font-weight: 400;
+
+  span {
+    align-items: center;
+    display: flex;
+    font-family: var(--fontRegular);
+    font-size: 14px;
+    justify-content: center;
+    line-height: 22px;
+    max-width: 100%;
+    padding: 0 !important;
+color: black;
+    p {
+      margin-left: 5px;
+      margin-bottom: 3px !important;
+    }
+
+    i {
+
+      width: 10px;
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
+
+.userDropmenu a,
+.userDropmenu a:hover {
+  /* // color: var(--primaryTextcolor); */
+  color: black;
+  text-decoration: none;
+
+}
+
+.userDropmenu button {
+  background: transparent !important;
+  float: left;
+  border: none;
+  color: var(--primaryTextcolor) !important;
+  padding: 0;
+}
+
+.userDropmenu button:hover,
+.userDropmenu button:focus {
+  box-shadow: none !important;
+  color: var(--primaryTextcolor) !important;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .userDropmenu {
+    font-size: 14px;
+    width: 19%;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobileMenu {
+    display: none;
+  }
+
+  .onlyMob {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .onlyDes {
+    display: none !important;
+  }
+
+  .logo {
+    width: 250px;
+    height: 65px;
+    color: black;
+    background-color: black;
+  }
+
+  .topsec {
+    padding: 0 10px;
+    height: 78px;
+    padding-top: 0;
+    float: left;
+    /* // box-shadow: var(--headerShadow) !important; */
+    margin-left: -15px;
+    width: calc(100% + 15px);
+  }
+
+  .communityBtn {
+    display: none;
+  }
+
+  .newheader {
+    padding-left: 0;
+  }
+}
+
+
+
+/* Default styles for desktop view */
+.onlyDes {
+  display: block;
+}
+
+.onlyMob {
+  display: none;
+}
+
+
+
+.logo {
+  width: 50px;
+  /* Adjust as needed */
+  height: auto;
+
+}
+
+.newheader {
+  display: flex;
+}
+
+.userDropmenu {
+  margin-left: 20px;
+}
+
+.userDropmenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.userDropmenu a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .onlyDes {
+    display: none;
+  }
+
+  .onlyMob {
+    display: block;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+}
