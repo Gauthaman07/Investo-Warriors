@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/investo-warrior-spa/static/css/main.cc74ad20.css",
+    "main.js": "/investo-warrior-spa/static/js/main.edab4a54.js",
+    "static/js/453.b08e9810.chunk.js": "/investo-warrior-spa/static/js/453.b08e9810.chunk.js",
+    "static/media/IWlogohr.png": "/investo-warrior-spa/static/media/IWlogohr.2c6c463aa08b2e9a09d2.png",
+    "static/media/revicons.eot": "/investo-warrior-spa/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/investo-warrior-spa/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/investo-warrior-spa/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/investo-warrior-spa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/investo-warrior-spa/index.html",
+    "main.cc74ad20.css.map": "/investo-warrior-spa/static/css/main.cc74ad20.css.map",
+    "main.edab4a54.js.map": "/investo-warrior-spa/static/js/main.edab4a54.js.map",
+    "453.b08e9810.chunk.js.map": "/investo-warrior-spa/static/js/453.b08e9810.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc74ad20.css",
+    "static/js/main.edab4a54.js"
+  ]
+}
