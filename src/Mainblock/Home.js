@@ -30,7 +30,7 @@ const responsive = {
 function Home() {
     return (
         <>
-            <Header />
+          
             <div >
                 <div>
                     <div class="firstcon">
@@ -41,14 +41,14 @@ function Home() {
                         </div>
                         <img src="https://streetgains.in/assets/images/quick-investing.svg" />
                     </div>
-                    <div class="firstcon">
+                    <div id='register' class="firstcon">
                         <img src="https://streetgains.in/assets/images/quick-investing.svg" />
                         <div class="left">
                             <Contactform />
                         </div>
 
                     </div>
-                    <div class="thirdcon">
+                    <div id='services' class="thirdcon">
                         <h2 className='thirdheader'>315500+ users trust us for their Investment and Trading</h2>
                         <h3 className='thirdsubheader'>Honest, transparent and affordable research</h3>
 
@@ -77,7 +77,7 @@ function Home() {
 
                         </div>
                     </div>
-                    <div class="fourthcon">
+                    <div id='reviews' class="fourthcon">
                         <h2 style={{ textAlign: "center" }}>Our users love trading and investment every single day.</h2>
                         <h4 style={{ textAlign: "center" }}>We bring transaparancy in research, along with exceptional customer support
                             that our customers admire</h4>
@@ -86,7 +86,7 @@ function Home() {
                                 swipeable={true}
                                 draggable={false}
                                 customTransition="transform 300ms ease-in-out"
-                                transitionDuration={100}
+                                transitionDuration={10000}
                                 partialVisible={false}
                                 autoPlay
                                 autoPlaySpeed={1000}
@@ -115,12 +115,12 @@ function Home() {
                         </div>
 
                     </div>
-                    <div className="faqs">
+                    <div id='faqs' className="faqs">
                         <Faqcomponent />
                     </div>
                 </div>
             </div>
-            <Footer />
+            
         </>
     )
 }

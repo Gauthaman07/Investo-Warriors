@@ -24,6 +24,7 @@
 }
 
 .firstcon .left h2 {
+
     color: black;
     font-size: 26px;
     font-weight: 400;
@@ -50,12 +51,15 @@
     font-size: 28px;
     font-weight: 500;
     margin-top: 0;
+    margin-bottom: 18px;
 }
 
 .thirdsubheader {
     text-align: center;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 400;
+    color: gray;
+
 }
 
 .thirdcon .verticalblock {
@@ -78,22 +82,22 @@
 }
 
 .thirdcon .verticalblock .verticalinn h3 {
-    padding: 0px 12px 0px 12px;
+    padding: 0px 12px 8px 12px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 28px;
     width: 80%;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .thirdcon .verticalblock .verticalinn h4 {
     padding: 0px 12px 0px 12px;
     font-weight: 500;
     color: gray;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .fourthcon {
-    background-color: #dcdde1;
+    background-color: white;
     margin-top: 60px;
     padding-top: 20px;
     margin-bottom: 60px;
@@ -109,6 +113,7 @@
 .fourthcon h4 {
     font-size: 20px;
     font-weight: 500;
+    color: gray;
 }
 
 .fourthcon .verticalblock {
@@ -131,6 +136,10 @@
     height: 150px;
 }
 
+.fourthcon .verticalinn h3 {
+    font-size: 20px;
+}
+
 .fourthcon .carouselblock {
     padding-right: 50px;
     padding-left: 50px;
@@ -151,6 +160,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 @media (max-width: 768px) {
@@ -174,9 +184,14 @@
     }
 
     .firstcon .left h2 {
-        font-size: 28px;
+        font-size: 22px;
         margin-top: 10px;
         margin-bottom: 0;
+    }
+
+    .firstcon .left h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .firstcon img {
@@ -186,8 +201,7 @@
     .firstcon .left {
         /* display: flex; */
         width: 100%;
-        align-items: center;
-        justify-content: center;
+        padding-left: 14px;
     }
 
     .thirdheader {
@@ -210,11 +224,12 @@
 
     .fourthcon {
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .fourthcon .verticalinn {
         width: 95%;
-        height: 270px;
+        height: 240px;
         display: block;
         margin: auto;
         margin-bottom: 40px;
@@ -227,7 +242,7 @@
 
     .fourthcon h2 {
         font-size: 22px;
-
+        line-height: 30px;
     }
 
     .fourthcon h4 {

@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
     height: auto;
     background-color: #2f3640;
     color: #dcdde1;
@@ -12,8 +12,7 @@
 }
 
 .left {
-    /* margin-left: 30px;
-    width: 30%; */
+   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
 }
@@ -27,8 +26,7 @@
 }
 
 .right {
-    /* width: 35%;
-    margin-left: 30px; */
+ 
     padding: 10px;
     padding-left: 50px;
 
@@ -61,16 +59,15 @@
 }
 
 .center {
-    /* width: 30%;
-    margin-left: 30px; */
+  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
-    /* padding-left: 130px; */
+
 }
 
 .center>h3 {
     margin-bottom: 20px;
-    /* font-weight: 100; */
+  
     font-size: 24px;
     font-family: 'Inter', sans-serif;
 }
@@ -94,7 +91,7 @@
     padding: 8px 8px;
     background-color: white;
     color: black;
-    /* display: inline-flex; */
+ 
     margin: 0 5px;
     height: 40px;
     width: 40px;
@@ -123,20 +120,18 @@
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+
 .fa:hover {
     opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
 
-/* Facebook */
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
 
-/* Twitter */
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -160,5 +155,114 @@
     .copyright{
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+} */
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.footersec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    max-width: 1160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footersec h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.social {
+    background-color: #2f3640;
+    margin-top: 50px;
+}
+
+.social-container a {
+    border-radius: 50%;
+    padding: 3px 1px;
+    background-color: white;
+    color: black;
+    margin: 0 6px;
+    height: 36px;
+    width: 36px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.social-container a:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 5px black;
+    text-shadow: 0 0 5px white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+
+@media(max-width:768px) {
+    .footersec {
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 0.5fr;
+    }
+
+    .footersec h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .social-container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
     }
 }

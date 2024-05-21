@@ -19,7 +19,12 @@ const data = {
         {
             title: "What is the package version",
             content: "v1.0.5"
-        }]
+        }],
+        styles:{
+            titleTextSize: '32px',
+            rowContentPaddingBottom: '10px',
+            rowContentPaddingTop: '10px',
+        }
 }
 
 

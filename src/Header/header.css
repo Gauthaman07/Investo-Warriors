@@ -135,7 +135,8 @@
     line-height: 22px;
     max-width: 100%;
     padding: 0 !important;
-color: black;
+    color: black;
+
     p {
       margin-left: 5px;
       margin-bottom: 3px !important;
@@ -148,6 +149,10 @@ color: black;
       line-height: 22px;
     }
   }
+}
+
+.userDropmenu p {
+  margin-bottom: 0;
 }
 
 .userDropmenu a,
