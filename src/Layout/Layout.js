@@ -14,7 +14,7 @@ function Layout({ children }) {
                 <meta http-equiv="content-language" content="en" />
             </Helmet>
             <Header />
-            <Home />
+            <Home path="/" />
             <Footer />
         </>
     )
