@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7015a5f7.css",
-    "main.js": "/static/js/main.3043999a.js",
-    "static/js/453.b08e9810.chunk.js": "/static/js/453.b08e9810.chunk.js",
-    "static/media/IWlogohr.png": "/static/media/IWlogohr.2c6c463aa08b2e9a09d2.png",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.7015a5f7.css.map": "/static/css/main.7015a5f7.css.map",
-    "main.3043999a.js.map": "/static/js/main.3043999a.js.map",
-    "453.b08e9810.chunk.js.map": "/static/js/453.b08e9810.chunk.js.map"
+    "main.css": "/Investo-Warriors/static/css/main.1bf13dd7.css",
+    "main.js": "/Investo-Warriors/static/js/main.74ad8e0b.js",
+    "static/js/453.b08e9810.chunk.js": "/Investo-Warriors/static/js/453.b08e9810.chunk.js",
+    "static/media/IWlogohr.png": "/Investo-Warriors/static/media/IWlogohr.2c6c463aa08b2e9a09d2.png",
+    "static/media/revicons.eot": "/Investo-Warriors/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Investo-Warriors/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Investo-Warriors/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/Investo-Warriors/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Investo-Warriors/index.html",
+    "main.1bf13dd7.css.map": "/Investo-Warriors/static/css/main.1bf13dd7.css.map",
+    "main.74ad8e0b.js.map": "/Investo-Warriors/static/js/main.74ad8e0b.js.map",
+    "453.b08e9810.chunk.js.map": "/Investo-Warriors/static/js/453.b08e9810.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7015a5f7.css",
-    "static/js/main.3043999a.js"
+    "static/css/main.1bf13dd7.css",
+    "static/js/main.74ad8e0b.js"
   ]
 }
