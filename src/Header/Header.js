@@ -162,6 +162,18 @@ function Header() {
                 </span>
               </p>
             </div>
+            {/* <div className="userDropmenu">
+              <a
+                onClick={handleFaq}
+                tabIndex={0}
+                aria-label="Academy at home"
+
+              >
+                <span>
+                  Faq
+                </span>
+              </a>
+            </div> */}
           </div>
         </div>
       </div>

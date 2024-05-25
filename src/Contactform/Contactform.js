@@ -48,15 +48,15 @@ function Contactform() {
     return errors;
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const errors = validate();
-  //   if (Object.keys(errors).length === 0) {
-  //     sendEmail();
-  //   } else {
-  //     setErrors(errors);
-  //   }
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const errors = validate();
+    if (Object.keys(errors).length === 0) {
+      console.log('test');
+    } else {
+      setErrors(errors);
+    }
+  };
 
 
   return (
@@ -64,7 +64,7 @@ function Contactform() {
       <div className='formcon'>
         <h3>Register with us!</h3>
         <div >
-          <form>
+          <form onSubmit={handleSubmit}>
             <input type="text" id="firstname" name="firstname" value={form.firstname} onChange={handleChange} placeholder="Enter your full name" />
             <input type="text" id="mobile" name="mobile" value={form.mobile} onChange={handleChange} placeholder="Enter your mobile number" />
             <input type="text" id="email" name="email" value={form.email} onChange={handleChange} placeholder="Enter your email" />

@@ -7,7 +7,7 @@ import Home from '../Mainblock/Home';
 function Layout({ children }) {
     return (
         <>
-            <Helmet htmlAttributes={{ lang: 'en-GB' }}>
+            {/* <Helmet htmlAttributes={{ lang: 'en-GB' }}>
                 <meta http-equiv="cache-control" content="no-cache" lang="en" />
                 <meta http-equiv="expires" content="0" lang="en" />
                 <meta http-equiv="pragma" content="no-cache" lang="en" />
@@ -15,7 +15,7 @@ function Layout({ children }) {
             </Helmet>
             <Header />
             <Home path="/" />
-            <Footer />
+            <Footer /> */}
         </>
     )
 }
