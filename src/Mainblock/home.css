@@ -41,6 +41,43 @@
     height: 300px;
 }
 
+.secondcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.secondcon .left {
+    width: 40%;
+}
+
+.secondcon .left h1 {
+    color: grey;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.secondcon .left h2 {
+
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.secondcon .left h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.secondcon img {
+    width: 500px;
+    height: 300px;
+}
+
 .thirdcon {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -77,12 +114,14 @@
 }
 
 .thirdcon .verticalblock .verticalinn img {
-    width: 150px;
+    display: block;
+    width: 100%;
     height: 150px;
+    margin: auto;
 }
 
 .thirdcon .verticalblock .verticalinn h3 {
-    padding: 0px 12px 8px 12px;
+    padding: 14px 12px 8px 12px;
     font-weight: 500;
     line-height: 28px;
     width: 80%;
@@ -175,7 +214,8 @@
         align-items: center;
         gap: 30px;
         flex-direction: column;
-
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 
     .firstcon .left h1 {
@@ -204,6 +244,20 @@
         padding-left: 14px;
     }
 
+    .secondcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .secondcon .left {
+        width: 100%;
+    }
+    .secondcon img {
+        width: 100%;
+    }
     .thirdheader {
         font-size: 22px;
     }

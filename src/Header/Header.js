@@ -83,7 +83,7 @@ function Header() {
 
       {/* Mobile Navigation */}
       <div className='onlyMob'>
-        <Navbar style={{ marginRight: '50px' }} expand="lg" bg="white" variant="white" expanded={expanded}>
+        <Navbar style={{ marginRight: '50px' }} expand="lg" bg="white" variant="white" collapseOnSelect>
           <Navbar.Brand href="#">
             {/* Add your logo here */}
             <img style={{ marginLeft: '50px' }} src={Logo} alt="Logo" className="logo" />
@@ -91,10 +91,11 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/sport" onClick={toggleMenu}>Services</Nav.Link>
-              <Nav.Link href="/academyathome" onClick={toggleMenu}>Performance</Nav.Link>
-              <Nav.Link href="/tryit-forfree" onClick={toggleMenu}>Register</Nav.Link>
-              <Nav.Link href="/tourism" onClick={toggleMenu}>Testimonials</Nav.Link>
+              <Nav.Link onClick={handleServiceClick}>Services</Nav.Link>
+              <Nav.Link onClick={handleRegister}>Register</Nav.Link>
+              <Nav.Link onClick={handleReviews}>Testimonials</Nav.Link>
+              <Nav.Link onClick={handleFaq}>Faqs</Nav.Link>
+
             </Nav>
           </Navbar.Collapse>
         </Navbar>

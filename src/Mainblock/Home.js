@@ -7,6 +7,8 @@ import Faqcomponent from './Faq';
 import Header from '../Header/Header';
 import Contactform from '../Contactform/Contactform';
 import Footer from '../Footer/Footer';
+import Stm from '../assets/images/stm.jpg'
+
 
 const responsive = {
     superLargeDesktop: {
@@ -39,10 +41,10 @@ function Home() {
                         <h2>Pay for Profit Calls</h2>
                         <h3>Start your wealth creation journey! Know More</h3>
                     </div>
-                    <img src="https://streetgains.in/assets/images/quick-investing.svg" />
+                    <img src={Stm} />
                 </div>
-                <div id='register' class="firstcon">
-                    <img src="https://streetgains.in/assets/images/quick-investing.svg" />
+                <div id='register' class="secondcon">
+                    <img src={Stm} />
                     <div class="left">
                         <Contactform />
                     </div>
@@ -55,22 +57,22 @@ function Home() {
                     <div class="verticalblock">
 
                         <div class="verticalinn">
-                            <img src="https://streetgains.in/assets/images/quick-investing.svg" />
+                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png" />
                             <h3>SEBI Registered Research Analyst</h3>
                             <h4>Research from Qualified professionals</h4>
                         </div>
                         <div class="verticalinn">
-                            <img src="https://streetgains.in/assets/images/quick-investing.svg" />
+                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png" />
                             <h3>SEBI Registered Research Analyst</h3>
                             <h4>Research from Qualified professionals</h4>
                         </div>
                         <div class="verticalinn">
-                            <img src="https://streetgains.in/assets/images/quick-investing.svg" />
-                            <h3>SEBI Registered Research Analyst</h3>
-                            <h4>Research from Qualified professionals</h4>
+                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png"/>
+                                <h3>SEBI Registered Research Analyst</h3>
+                                <h4>Research from Qualified professionals</h4>
                         </div>
                         <div class="verticalinn">
-                            <img src="https://streetgains.in/assets/images/quick-investing.svg" />
+                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png" />
                             <h3>SEBI Registered Research Analyst</h3>
                             <h4>Research from Qualified professionals</h4>
                         </div>
