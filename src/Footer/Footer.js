@@ -47,13 +47,13 @@ function Footer() {
                         <p>No.2, 4th Main, Chandra Layout<br></br>
                             Banglore-560040</p>
                     </div>
-                    <div >
-                        {/* <h2>INVESTO WARRIORS </h2> */}
+                    {/* <div >
+                       
                         <p>Services</p>
                         <p>Register</p>
                         <p>Testimonials</p>
                         <p>Faqs</p>
-                    </div>
+                    </div> */}
                     <div >
                         {/* <h2>COMPANY </h2> */}
                         <p>Privacy Policy</p>

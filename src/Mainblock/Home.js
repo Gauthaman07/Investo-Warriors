@@ -8,6 +8,13 @@ import Header from '../Header/Header';
 import Contactform from '../Contactform/Contactform';
 import Footer from '../Footer/Footer';
 import Stm from '../assets/images/stm.jpg'
+import FM from '../assets/images/st.jpg'
+import CF from '../assets/images/cf.jpg'
+import one from '../assets/images/idea.png'
+import two from '../assets/images/research.png'
+import three from '../assets/images/customerseg.png'
+import four from '../assets/images/investment.png'
+
 
 
 const responsive = {
@@ -37,52 +44,51 @@ function Home() {
             <div>
                 <div class="firstcon">
                     <div class="left">
-                        <h1>Your Trusted Research Analyst</h1>
-                        <h2>Pay for Profit Calls</h2>
-                        <h3>Start your wealth creation journey! Know More</h3>
+                        <h1>Welcome to Investo Warriors</h1>
+                        <h2>Empowering your financial success</h2>
+                        <h3>Start your wealth creation journey! </h3>
                     </div>
-                    <img src={Stm} />
+                    <img src={FM} />
                 </div>
                 <div id='register' class="secondcon">
-                    <img src={Stm} />
+                    <img src={CF} />
                     <div class="left">
                         <Contactform />
                     </div>
 
                 </div>
                 <div id='services' class="thirdcon">
-                    <h2 className='thirdheader'>315500+ users trust us for their Investment and Trading</h2>
-                    <h3 className='thirdsubheader'>Honest, transparent and affordable research</h3>
+                    <h2 className='thirdheader'>A vast community of users trusts us for their investment and trading needs</h2>
+                    <h3 className='thirdsubheader'>Reliable, clear, and cost-effective research</h3>
 
                     <div class="verticalblock">
 
                         <div class="verticalinn">
-                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png" />
-                            <h3>SEBI Registered Research Analyst</h3>
-                            <h4>Research from Qualified professionals</h4>
+                            <img src={one} />
+                            <h3>Expert Tips & Recommendations</h3>
+                            <h4>Benefit from our expertise and market insights</h4>
                         </div>
                         <div class="verticalinn">
-                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png" />
-                            <h3>SEBI Registered Research Analyst</h3>
-                            <h4>Research from Qualified professionals</h4>
+                            <img src={two} />
+                            <h3>Top-notch Research Precision</h3>
+                            <h4>Consistent end-of-day performance reports</h4>
                         </div>
                         <div class="verticalinn">
-                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png"/>
-                                <h3>SEBI Registered Research Analyst</h3>
-                                <h4>Research from Qualified professionals</h4>
+                            <img src={three} />
+                            <h3>Investor & Trader-Focused Research</h3>
+                            <h4>Personalized services for all skill levels</h4>
                         </div>
                         <div class="verticalinn">
-                            <img src="https://www.forex.academy/wp-content/uploads/2021/04/Screenshot_2-8.png" />
-                            <h3>SEBI Registered Research Analyst</h3>
-                            <h4>Research from Qualified professionals</h4>
+                            <img src={four} />
+                            <h3>Your Starting Guide to Investing</h3>
+                            <h4>Learn, grasp, and dive into investments</h4>
                         </div>
 
                     </div>
                 </div>
                 <div id='reviews' class="fourthcon">
-                    <h2 style={{ textAlign: "center" }}>Our users love trading and investment every single day.</h2>
-                    <h4 style={{ textAlign: "center" }}>We bring transaparancy in research, along with exceptional customer support
-                        that our customers admire</h4>
+                    <h2 style={{ textAlign: "center" }}>Our users enjoy trading and investing daily</h2>
+                    <h4 style={{ textAlign: "center" }}>Hear what our clients have to say about us</h4>
                     <div class="carouselblock">
                         <Carousel
                             swipeable={true}
@@ -98,20 +104,21 @@ function Home() {
                             responsive={responsive}
                         >
                             <div class="verticalinn">
-                                <p>You guys really work hard to support Indian retail traders, we are fortunate to have your support in my trading.</p>
+                                <p>InvestoWarriors has been instrumental in helping me make informed investment decisions. Their expert advice and recommendations have significantly improved my trading outcomes.</p>
+                                <h3>John D</h3>
+                            </div>
+                            <div class="verticalinn">
+                                <p>I've been a member of InvestoWarriors for over a year now, and I can confidently say that their insights and analysis have been invaluable to my investment strategy. Highly recommended!</p>
+                                <h3>Sarah M</h3>
+                            </div>
+                            <div class="verticalinn">
+                                <p>I've tried numerous advisories, but Streetgains has been my ultimate solution. Their stock options are exactly what I needed.</p>
                                 <h3>Gautham</h3>
                             </div>
                             <div class="verticalinn">
-                                <p>You guys really work hard to support Indian retail traders, we are fortunate to have your support in my trading.</p>
-                                <h3>Gautham</h3>
-                            </div>
-                            <div class="verticalinn">
-                                <p>You guys really work hard to support Indian retail traders, we are fortunate to have your support in my trading.</p>
-                                <h3>Gautham</h3>
-                            </div>
-                            <div class="verticalinn">
-                                <p>You guys really work hard to support Indian retail traders, we are fortunate to have your support in my trading.</p>
-                                <h3>Gautham</h3>
+                                <p>
+                                    The services are exceptional. Although no one can achieve perfect accuracy, you have helped me transform losing trades into profitable ones.</p>
+                                <h3>Kannan</h3>
                             </div>
                         </Carousel>
                     </div>
