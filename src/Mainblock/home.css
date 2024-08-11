@@ -40,6 +40,7 @@
 .firstcon img {
     width: 500px;
     height: 300px;
+    object-fit: cover;
 }
 
 .secondcon {
@@ -77,6 +78,7 @@
 .secondcon img {
     width: 500px;
     height: 300px;
+    object-fit: cover;
 }
 
 .thirdcon {
@@ -121,7 +123,7 @@
     margin-top: 24px;
     margin-bottom: 24px;
     object-fit: contain;
-    
+
 }
 
 .thirdcon .verticalblock .verticalinn h3 {
@@ -232,17 +234,19 @@
     .firstcon .left h1 {
         font-size: 20px;
         margin: 0;
+        text-align: center;
     }
 
     .firstcon .left h2 {
         font-size: 20px;
+        margin-bottom: 14px;
         margin-top: 10px;
-        margin-bottom: 0;
+        text-align: center;
     }
 
-    .firstcon .left h2 {
-        font-size: 19px;
-        margin-bottom: 14px;
+    .firstcon .left h3 {
+        font-size: 20px;
+        text-align: center;
     }
 
     .firstcon img {
@@ -253,7 +257,7 @@
     .firstcon .left {
         /* display: flex; */
         width: 100%;
-        padding-left: 14px;
+        padding-left: 0px;
     }
 
     .secondcon {
@@ -315,7 +319,7 @@
     }
 
     .fourthcon h2 {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 30px;
     }
 
@@ -332,9 +336,11 @@
     .thirdcon .verticalblock .verticalinn h3 {
         height: auto;
         margin-bottom: 0px;
+        text-align: center;
     }
 
-    .firstcon .left h3 {
-        font-size: 20px;
+    .thirdcon .verticalblock .verticalinn h4 {
+        text-align: center;
     }
+
 }

@@ -1,17 +1,26 @@
 import React, { useState } from 'react';
 // import Logo from "../logo.svg"
 import './header.css'
-import { Nav, Navbar, NavDropdown, Offcanvas, Dropdown, Badge } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown, Offcanvas, Dropdown, Badge, Button } from "react-bootstrap";
 import Logo from '../assets/images/IWlogohr.png'
 import { useNavigate } from 'react-router-dom';
 
 function Header() {
   const [expanded, setExpanded] = useState(false);
 
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  const [isOpen, setIsOpen] = useState(false);
+
   const toggleMenu = () => {
-    setExpanded(!expanded);
+    setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   const navigate = useNavigate
 
   const handleServiceClick = () => {
@@ -83,22 +92,26 @@ function Header() {
 
       {/* Mobile Navigation */}
       <div className='onlyMob'>
-        <Navbar style={{ marginRight: '50px' }} expand="lg" bg="white" variant="white" collapseOnSelect>
+        <Navbar bg="white" expand="lg" className="mb-3">
           <Navbar.Brand href="#">
-            {/* Add your logo here */}
-            <img style={{ marginLeft: '50px' }} src={Logo} alt="Logo" className="logo" />
+            <img src={Logo} alt="Logo" className="logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu} />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link onClick={handleServiceClick}>Services</Nav.Link>
-              <Nav.Link onClick={handleRegister}>Register</Nav.Link>
-              <Nav.Link onClick={handleReviews}>Testimonials</Nav.Link>
-              <Nav.Link onClick={handleFaq}>Faqs</Nav.Link>
-
-            </Nav>
-          </Navbar.Collapse>
+          <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={handleShow} />
         </Navbar>
+
+        <Offcanvas show={show} onHide={handleClose} placement="end" id="offcanvasNavbar">
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title>Menu</Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav className="flex-column">
+              <Nav.Link style={{ color: "black" }} onClick={() => { handleServiceClick(); handleClose(); }}>Services</Nav.Link>
+              <Nav.Link style={{ color: "black" }} onClick={() => { handleRegister(); handleClose(); }}>Register</Nav.Link>
+              <Nav.Link style={{ color: "black" }} onClick={() => { handleReviews(); handleClose(); }}>Testimonials</Nav.Link>
+              <Nav.Link style={{ color: "black" }} onClick={() => { handleFaq(); handleClose(); }}>Faqs</Nav.Link>
+            </Nav>
+          </Offcanvas.Body>
+        </Offcanvas>
       </div>
 
       {/* Desktop Navigation */}
@@ -129,7 +142,7 @@ function Header() {
               <p
                 onClick={handleRegister}
                 tabIndex={0}
-                aria-label="Try it for free"
+
               >
 
                 <span>
@@ -144,7 +157,7 @@ function Header() {
               <p
                 onClick={handleReviews}
                 tabIndex={0}
-                aria-label="Tourism"
+
               >
                 <span>
                   Testimonials
@@ -155,7 +168,7 @@ function Header() {
               <p
                 onClick={handleFaq}
                 tabIndex={0}
-                aria-label="Academy at home"
+
 
               >
                 <span>
